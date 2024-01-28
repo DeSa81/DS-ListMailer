@@ -190,7 +190,7 @@ email_subject_label.grid(row=0, column=0, pady=root.padding_y, padx=root.padding
 email_subject_entry = tk.Entry(email_text_group, width=55)
 email_subject_entry.grid(row=0, column=1, pady=root.padding_y, padx=root.padding_x, sticky=tk.W)
 
-email_text = tk.Text(email_text_group, height=5, width=54)  # Ändere die Breite nach Bedarf
+email_text = tk.Text(email_text_group, height=5, width=54)
 email_text.grid(row=1, column=0, pady=root.padding_y, padx=root.padding_x, sticky="nsew", columnspan=2)
 
 status_label = tk.Label(root, text="Fortschritt:")
